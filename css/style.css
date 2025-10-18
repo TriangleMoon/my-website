@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/MyFont.woff2') format('woff2'),
+        url('./fonts/MyFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #20202d;
+    margin: 0;
+    /*лишние отступы нам теперь не мешают*/
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 945px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.hero {
+    padding-top: 50px;
+    padding-bottom: 155px;
+    background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 105px;
+}
+
+.social-link {
+    margin-left: 20.73px;
+}
+
+.hero-subtitle {
+    display: inline-block;
+    margin-bottom: 14px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFBB01;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+}
+
+.hero-description {
+    margin-bottom: 38px;
+    max-width: 420px;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.button {
+    padding: 24px 42px;
+    box-shadow: 0 4px 0 0 #b68500;
+    border: none;
+    border-radius: 5px 5px 10px 10px;
+    background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2e2e30;
+}
+
+.hero-avatar {
+    width: 389px;
+    height: 389px;
+    background-color: #fff;
+    border-radius: 50%;
+    background-image: url('../img/avatar.png');
+    background-repeat: no-repeat;
+    /*background-position: center top -40px;*/
+    background-position: 62% calc(90% + 30px);
+    border: 13px solid #fff;
+}
