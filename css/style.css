@@ -150,6 +150,87 @@ body {
     line-height: 28px;
 }
 
+/* projects */
+
+.projects {
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.projects-slide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.project-text {
+    display: flex;
+    flex-basis: 60%;
+    flex-wrap: wrap;
+}
+
+.project-title {
+    margin: 0;
+    margin-bottom: 41px;
+    flex-basis: 100%;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.project-time,
+.project-cost {
+    flex-basis: 50%;
+    margin-bottom: 44px;
+}
+
+.project-time,
+.project-cost,
+.project-feedback {
+    display: flex;
+    align-items: flex-start;
+}
+
+.project-subtitle {
+    margin: 0;
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.project-paragtaph {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.project-icon {
+    margin-right: 16px;
+}
+
+.project-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.project-bullet {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #FFBB01;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.project-bullet-active {
+    background-color: #ffbb01;
+}
+
 /* contacts */
 .contacts-form {
     max-width: 380px;
@@ -254,4 +335,9 @@ body {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #a5a5a5;
+}
+
+.swiper {
+    margin-left: 0;
+    margin-right: 0;
 }
